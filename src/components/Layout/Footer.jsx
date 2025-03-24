@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../images/3.png"; // Replace with actual logo path
+import logo from "../../images/31.png"; // Replace with actual logo path
 import img1 from "../../images/breakfast.png";
 import img2 from "../../images/maincourse.png";
 import img3 from "../../images/drinks.png";
 import img4 from "../../images/dessert.png";
 function Footer() {
   return (
-    <footer className="bg-[#a70000] text-white pt-10 pb-3 mt-10">
+    <footer className="bg-[#AD343E] text-white pt-10 pb-3 mt-10">
       <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-3  gap-5">
         
         {/* Logo & Description */}
