@@ -17,10 +17,13 @@ function Navbar() {
         <nav className="hidden md:flex items-center mx-auto space-x-6 text-[16px] font-[Montserrat] font-medium text-black">
           <Link to={"/"} className="px-3">Home</Link>
           <Link to={"/Offerspage"} className="px-3">Offers</Link>
-          <Link to={"/Resto"} className="px-3">Group Order</Link>
+          <Link to={"/grouporder"} className="px-3">Group Order</Link>
+          <Link to={"/Resto"} className="px-3">Resto page</Link>
           {/* <a href="#" className="px-3">Group Order</a> */}
-          <a href="#" className="px-3">Help</a>
-          <a href="#" className="px-3">Login</a>
+          <Link to={"/"} className="px-3">Help</Link>
+          <Link to={"/login"} className="px-3">Login</Link>
+          <Link to={"/signup"} className="px-3">Signup</Link>
+          <Link to={"/otpverify"} className="px-3">Otpverify</Link>
 
           {/* Search Bar */}
           <div className="relative">

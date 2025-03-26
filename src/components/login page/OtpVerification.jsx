@@ -19,9 +19,9 @@ function OtpVerification() {
   };
 
   return (
-    <div className="p-6">
-      <h2 className="text-2xl font-bold">Enter OTP</h2>
-      <p className="text-gray-600">We've sent an OTP to your phone number.</p>
+    <div className="max-w-1/4 p-6 border">
+      <h2 className="text-2xl font-bold text-left">Enter OTP</h2>
+      <p className="text-gray-600 text-left">We've sent an OTP to your phone number.</p>
 
       <input
         type="text"

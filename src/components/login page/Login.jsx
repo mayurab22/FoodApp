@@ -5,9 +5,9 @@ function Login() {
   const navigate = useNavigate();
 
   return (
-    <div className="p-6">
-      <h2 className="text-2xl font-bold">Login</h2>
-      <p className="text-gray-600">
+    <div className="max-w-1/4 p-6 border">
+      <h2 className="text-2xl font-bold text-left">Login</h2>
+      <p className="text-gray-600 text-left">
         or{" "}
         <span
           onClick={() => navigate("/signup")} // Fixed navigation

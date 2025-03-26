@@ -9,6 +9,10 @@ import Offerspage from './components/offers page/Index'
 import Resto1 from '../src/components/Restaurants/Resto1'
 import Resto2 from '../src/components/Restaurants/Resto2'
 import Resto from '../src/components/Restaurants/RestautantPage'
+import LoginPage from '../src/components/login page/Login'
+import SignupPage from '../src/components/login page/Signup'
+import Otpverify from '../src/components/login page/OtpVerification'
+import GroupOrder from '../src/components/Group Order/GroupOrderPage'
 
 function App() {
 
@@ -18,6 +22,10 @@ function App() {
       <Route path="/Offerspage" element={<Offerspage/>}/>
       <Route path="/restaurant/1" element={<Resto1/>}/>
       <Route path="/restaurant/2" element={<Resto2/>}/>
+      <Route path="/login" element={<LoginPage/>}/>
+      <Route path="/signup" element={<SignupPage/>}/>
+      <Route path="/otpverify" element={<Otpverify/>}/>
+      <Route path="/grouporder" element={<GroupOrder/>}/>
 
       <Route path="/Resto" element={<Resto/>}/>
     </Routes>
